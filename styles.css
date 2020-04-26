@@ -1,0 +1,53 @@
+header{
+  overflow: hidden;
+  background-color: aliceblue;
+}
+
+a{
+  text-decoration: none;
+}
+
+li a{
+  padding: 15px;
+}
+
+header nav a{
+  float: left;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li{
+  display: inline;
+}
+
+nav div {
+  float: right;
+  display: inline-flex;
+  margin-top: 4px;
+  padding-top: 6px;
+}
+
+div form input{
+  margin: 4px;
+}
+
+div form button{
+  margin: 4px;
+}
+
+div a{
+  margin: 4px;
+}
+
+main div{
+  text-align: center;
+   margin: 20px auto;
+   background-color: lavenderblush;
+   position: absolute;
+   left: 50%;
+   width: 180px;
+   transform: translate(-50%, 50px);
+}
